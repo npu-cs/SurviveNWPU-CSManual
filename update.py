@@ -8,12 +8,12 @@ EXCLUDE_DIRS = ['.git', 'docs', '.vscode', '.circleci', 'site']
 README_MD = ['README.md', 'readme.md', 'index.md']
 
 TXT_EXTS = ['md', 'txt']
-TXT_URL_PREFIX = 'https://github.com/QSCTech/zju-icicles/blob/master/'
-BIN_URL_PREFIX = 'https://github.com/QSCTech/zju-icicles/raw/master/'
+TXT_URL_PREFIX = 'https://github.com/npu-cs/SurviveNWPU-CSManual/blob/master/'
+BIN_URL_PREFIX = 'https://github.com/npu-cs/SurviveNWPU-CSManual/raw/master/'
 
 
 def list_files(course: str):
-    filelist_texts = '## 文件列表\n\n'
+    filelist_texts = '## 文件及下载列表\n\n'
     readme_path = ''
     for root, dirs, files in os.walk(course):
         files.sort()
