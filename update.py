@@ -59,3 +59,4 @@ if __name__ == '__main__':
 
     with open('docs/index.md', 'w') as file:
         file.writelines(mainreadme_lines)
+
