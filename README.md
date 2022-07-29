@@ -50,7 +50,7 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 欢迎各种`Issue`、`Pull Request`，对我们的仓库进行补充、纠错。
 
-> 具体贡献方法见[贡献方法.md](贡献方法.md)
+> 具体贡献方法见[贡献方法.md](https://github.com/npu-cs/SurviveNWPU-CSManual/blob/master/贡献方法.md)
 
 ## 许可
 
