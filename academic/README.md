@@ -1,10 +1,10 @@
 <!--
  * @Date: 2022-08-09 11:08:55
  * @LastEditors: Juan Jiang
- * @LastEditTime: 2022-08-09 11:33:10
+ * @LastEditTime: 2022-08-09 11:38:58
  * @FilePath: \SurviveNWPU-CSManual\academic\README.md
 -->
-# 关于学业生活
+# 学业指南
 
 ### 前言
 
@@ -20,7 +20,7 @@
 
 我想，对于绝大多数人来说，在低年级就坚定地做出未来选择的人并不多，那么可能好好学习，努力刷高gpa，在课余时间参加一些竞赛科研，可能是一种通解。
 
-### 学习指南
+### 关于每个学期的安排
 
 以下内容参考了 https://www.zhihu.com/question/335528283/answer/822906862?utm_source=qq&utm_medium=social&utm_oi=1168578543415422976 的一些回答（知乎用户 @zzzzzfyang，@独钓寒江雪，@摩金，@止戈为武，@Aaron gcx）。
 
