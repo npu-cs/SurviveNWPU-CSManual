@@ -1,7 +1,7 @@
 <!--
  * @Date: 2022-08-09 11:05:01
  * @LastEditors: Juan Jiang
- * @LastEditTime: 2022-08-09 11:38:32
+ * @LastEditTime: 2022-08-12 09:15:46
  * @FilePath: \SurviveNWPU-CSManual\README.md
 -->
 # NWPU计算机生存指南
@@ -28,11 +28,13 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 本项目至今为止收录了以下内容：
 
-* 学业指南
+* 学业
 
 * 选课
 
 * 保研
+
+* 留学
 
 * 实习
 
