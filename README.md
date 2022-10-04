@@ -8,7 +8,7 @@
 
 Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual)
 
-受[上海交通大学](https://github.com/SurviveSJTU/SurviveSJTUManual)、[浙江大学](https://github.com/QSCTech/zju-icicles)、[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)相关项目启发，创立了本项目。
+受[上海交通大学](https://github.com/SurviveSJTU/SurviveSJTUManual)、[浙江大学](https://github.com/QSCTech/zju-icicles)、[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)、[哈尔滨工业大学-深圳](https://github.com/hewei2001/HITSZ-OpenCS)、[四川大学](https://github.com/SCU-CS-Runner/SurviveSCUManual)、[北京航空航天大学](https://github.com/TheBloodthirster/BUAA_Course_Sharing)、[电子科技大学](https://github.com/Xovee/uestc-course)相关项目启发，创立了本项目。
 
 感谢所有对本项目做出贡献的同学，以及屏幕前的你！
 
@@ -60,7 +60,27 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 欢迎各种`Issue`、`Pull Request`，对我们的仓库进行补充、纠错。
 
-> 具体贡献方法见[贡献方法.md](https://github.com/npu-cs/SurviveNWPU-CSManual/blob/master/贡献方法.md)
+贡献方法主要有以下三种：`Issue`、`Pull Request`以及邮箱：
+
+方法一 `Issue`：
+
+请您在[此处](https://github.com/npu-cs/SurviveNWPU-CSManual/issues/new)提交您的`Issue`，并附带您的文件，将由维护者负责添加。
+
+方法二 `Pull Request`：
+
+首先`Fork`本仓库，然后上传文件到文件夹（或自己新建文件夹），最后点击提交`Pull Request`。
+
+方法三 邮箱：
+
+请您将补充/纠错的内容及文件发送至[此邮箱](mailto:1985871043@qq.com)，将由维护者负责维护。
+
+注意：
+
+1. 请在使用`Pull Request`时留意一下项目的文件组织；
+
+2. 由于本项目暂未启用`git-lfs`，请勿提交单个超过100M的文件，将被视为无效；
+
+3. 如果您希望以匿名形式进行贡献，可以采用发送至邮箱的方式。
 
 ## 许可
 
