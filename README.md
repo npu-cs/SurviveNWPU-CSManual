@@ -58,8 +58,6 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 “众人拾柴火焰高”，大家的关注、维护和贡献才是这个项目得以延续的基础。
 
-欢迎各种`Issue`、`Pull Request`，对我们的仓库进行补充、纠错。
-
 贡献方法主要有以下三种：`Issue`、`Pull Request`以及邮箱：
 
 方法一、`Issue`：
@@ -68,7 +66,7 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 方法二、`Pull Request`：
 
-  首先`Fork`本仓库，然后上传文件到文件夹（或自己新建文件夹），最后点击提交`Pull Request`。
+  首先`Fork`本仓库，然后上传文件到文件夹（或自己新建文件夹），点击提交`Pull Request`。
 
 方法三、邮箱：
 
