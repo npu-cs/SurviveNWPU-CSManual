@@ -1,10 +1,14 @@
 # NWPU计算机生存指南
 
-Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual)
+## 前言
 
-受[上海交通大学](https://github.com/SurviveSJTU/SurviveSJTUManual)、[浙江大学](https://github.com/QSCTech/zju-icicles)、[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)、[哈尔滨工业大学-深圳](https://github.com/hewei2001/HITSZ-OpenCS)、[四川大学](https://github.com/SCU-CS-Runner/SurviveSCUManual)、[北京航空航天大学](https://github.com/TheBloodthirster/BUAA_Course_Sharing)、[电子科技大学](https://github.com/Xovee/uestc-course)相关项目启发，创立了本项目。
+为了更好的阅读体验，请访问本项目Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual)
 
-感谢所有对本项目做出贡献的同学，以及屏幕前的你！
+受 [上海交通大学](https://github.com/SurviveSJTU/SurviveSJTUManual)、[浙江大学](https://github.com/QSCTech/zju-icicles)、[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)、[哈尔滨工业大学-深圳](https://github.com/hewei2001/HITSZ-OpenCS)、[四川大学](https://github.com/SCU-CS-Runner/SurviveSCUManual)、[北京航空航天大学](https://github.com/TheBloodthirster/BUAA_Course_Sharing)、[电子科技大学](https://github.com/Xovee/uestc-course) 等相关项目启发，创立了本项目。
+
+本项目创建于2022年，由2019级CS本科生自发组织，目前处于民间运营状态。
+
+谨在此感谢所有对本项目做出贡献的同学，以及屏幕前的你！
 
 ## 愿景
 
@@ -58,4 +62,4 @@ Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual
 
 其他部分的版权归属于其各自的作者，如有侵权，请及时联系[此邮箱](mailto:1985871043@qq.com)。
 
-资料仅供参考，请自己判断其适用性。
+资料仅供参考，请自行判断其适用性。
