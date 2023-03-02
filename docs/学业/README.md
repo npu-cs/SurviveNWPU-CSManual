@@ -22,7 +22,7 @@
 
 ### 通解流程
 
-以下内容参考了 [https://www.zhihu.com/question/335528283/answer/822906862?utm_source=qq&utm_medium=social&utm_oi=1168578543415422976] 的一些回答（知乎用户 @zzzzzfyang，@独钓寒江雪，@摩金，@止戈为武，@Aaron gcx）。
+以下内容参考了 [对西北工业大学 2019 新入学的学弟学妹们有哪些建议？](https://www.zhihu.com/question/335528283/answer/822906862?utm_source=qq&utm_medium=social&utm_oi=1168578543415422976) 的一些回答（知乎用户 @zzzzzfyang，@独钓寒江雪，@摩金，@止戈为武，@Aaron gcx）。
 
 1. 大一上：适应NPU的生活和氛围，同时认真学习。（如果有时间，请好好学英语）
 大一上的计算机专业课应该只有 **计算机系统基础** ，这并不是一门很难的课，但是需要你投入足够的时间精力。（特别当你是一个计算机小白时）。
