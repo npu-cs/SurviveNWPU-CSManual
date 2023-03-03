@@ -1,5 +1,7 @@
 # CS 入门指南
 
+> 转载自[duk的cs入门指南](https://als0-ran.github.io/cs-intro/)
+
 ## 1. 前言
 
 这是一份给“小镇做题家”的CS入门指南。
