@@ -1,9 +1,3 @@
-<!--
- * @Date: 2022-08-09 11:08:55
- * @LastEditors: Juan Jiang
- * @LastEditTime: 2022-09-09 19:50:49
- * @FilePath: \SurviveNWPU-CSManual\学业\README.md
--->
 # 学业指南
 
 ### 前言
