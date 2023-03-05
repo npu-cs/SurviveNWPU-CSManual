@@ -19,7 +19,7 @@
 
 ## 目录
 
-本项目至今为止收录了以下内容：
+本项目将会收录以下内容：
 
 |    保研    |    学业    |
 | :--------: | :--------: |
@@ -33,6 +33,8 @@
 **欢迎贡献！欢迎贡献！欢迎贡献！**
 
 “众人拾柴火焰高”，大家的关注、维护和贡献才是这个项目得以延续的基础。
+
+仓库地址：[https://github.com/npu-cs/SurviveNWPU-CSManual](https://github.com/npu-cs/SurviveNWPU-CSManual)；
 
 贡献方法主要有以下三种：`Issue`、`Pull Request`以及邮箱：
 
