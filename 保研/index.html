@@ -1,0 +1,971 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://npu-cs.github.io/SurviveNWPU-CSManual/%E4%BF%9D%E7%A0%94/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="%E4%BF%9D%E7%A0%94%E5%87%86%E5%A4%87/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>保研篇 - Survive NWPU-CS Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Survive NWPU-CS Manual" class="md-header__button md-logo" aria-label="Survive NWPU-CS Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Survive NWPU-CS Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              保研篇
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Survive NWPU-CS Manual" class="md-nav__button md-logo" aria-label="Survive NWPU-CS Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Survive NWPU-CS Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        NWPU计算机生存指南
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="true">
+          保研
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="保研" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          保研
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          保研篇
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        保研篇
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 获取推免资格的方式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 保研的目标院校如何选定
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 保研的目标专业如何选定
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 研究生导师的选择（获取信息、套磁）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 保研的考察形式是怎样的
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 保研需要进行哪些方面的准备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7. 保研的几个重要时间节点（流程）
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E4%BF%9D%E7%A0%94%E5%87%86%E5%A4%87/" class="md-nav__link">
+        保研准备
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E5%8E%86%E5%B9%B4%E5%8E%BB%E5%90%91/" class="md-nav__link">
+        历年去向
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%98%AF%E5%90%A6%E8%AF%BB%E5%8D%9A/" class="md-nav__link">
+        是否读博
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E9%99%A2%E6%A0%A1%E9%80%89%E6%8B%A9/" class="md-nav__link">
+        院校选择
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6" tabindex="0" aria-expanded="false">
+          相关资源
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="相关资源" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          相关资源
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90/%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90/" class="md-nav__link">
+        相关资源
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90/%E7%BB%8F%E9%AA%8C%E8%B4%B4%E6%94%B6%E9%9B%86/" class="md-nav__link">
+        经验贴收集
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_7" tabindex="0" aria-expanded="false">
+          经验贴
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="经验贴" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          经验贴
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/2019%E7%BA%A7-Jing-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6/" class="md-nav__link">
+        2019级 Jing 北京大学
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/2019%E7%BA%A7-%E5%8D%A2%E5%86%9B%E6%B1%80-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6/" class="md-nav__link">
+        2019级 卢军汀 北京大学
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/2019%E7%BA%A7-%E6%9D%A8%E4%B8%80%E5%B8%86-%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6/" class="md-nav__link">
+        2019级 杨一帆 中国科学技术大学
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/2019%E7%BA%A7-%E6%9D%A8%E5%87%AF%E8%A3%95-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6/" class="md-nav__link">
+        2019级 杨凯裕 北京大学
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/2019%E7%BA%A7-%E9%AD%8F%E5%A4%A9%E6%98%8A-%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6/" class="md-nav__link">
+        2019级 魏天昊 北京大学
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%BB%8F%E9%AA%8C%E8%B4%B4/20XX%E7%BA%A7-XXX%28%E5%A7%93%E5%90%8D%29-XXX%28%E6%9C%80%E7%BB%88%E5%8E%BB%E5%90%91%29/" class="md-nav__link">
+        20XX级 XXX(姓名) XXX(最终去向)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          学业
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="学业" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          学业
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%AD%A6%E4%B8%9A/" class="md-nav__link">
+        学业篇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%AD%A6%E4%B8%9A/%E5%AD%A6%E4%B8%9A%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        学业指南
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          杂文
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="杂文" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          杂文
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%9D%82%E6%96%87/" class="md-nav__link">
+        杂文篇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%9D%82%E6%96%87/duk%27s_cs-intro/" class="md-nav__link">
+        CS 入门指南
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="false">
+          留学
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="留学" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          留学
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%95%99%E5%AD%A6/" class="md-nav__link">
+        留学篇
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 获取推免资格的方式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 保研的目标院校如何选定
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 保研的目标专业如何选定
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 研究生导师的选择（获取信息、套磁）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 保研的考察形式是怎样的
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 保研需要进行哪些方面的准备
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7. 保研的几个重要时间节点（流程）
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">保研篇</h1>
+<p>为了能够对保研有一个大致的认识，请先阅读本页内容。</p>
+<p>（或者查看：相关资源-&gt;相关资源-&gt;20230305保研经验分享PPT）</p>
+<p>保研是升学的重要途径之一，西工大各学院的保研率在20%-30%之间。</p>
+<p>对于计算机学院而言，2019级保研率为 84 / 309（27.2%）。</p>
+<blockquote>
+<p>此309人包含了延毕的2017、2018级同学。</p>
+</blockquote>
+<h2 id="1">1. 获取推免资格的方式</h2>
+<ol>
+<li>GPA专业排名前10%的学生，原则上直接获得推免资格；</li>
+<li>GPA专业排名10%之后的学生按照<strong>综合测评成绩</strong>从高到低排序的方式依次确定推免资格，其中GPA在综合测评成绩中的占比原则上不低于80%；</li>
+<li>教育实验学院、国际班、飞天班推荐比例按照学校有关政策执行；</li>
+<li>支教团按综合测评成绩排名前50%进行申报，由团委根据国家支教团名额和有关规定进行遴选；</li>
+<li>特殊情况经学院推免工作小组研究同意后，报学校招生工作领导小组审议批准。</li>
+</ol>
+<blockquote>
+<p>以上摘自《关于开展2023年免试研究生推荐工作的通知》，即2019级的保研指导文件。</p>
+</blockquote>
+<h2 id="2">2. 保研的目标院校如何选定</h2>
+<p>首先，根据往年计算机学院学长学姐的情况来给自己定位。</p>
+<p>然后，根据自己喜好（title、城市、地域）、是否愿意读博、导师的match程度、该校具体某一方向的强弱来进一步选择。</p>
+<p>更多内容详见“院校选择”子目录。</p>
+<h2 id="3">3. 保研的目标专业如何选定</h2>
+<p>主要依据自己大学四年的感受、喜好来进行判断，比如：</p>
+<ol>
+<li>是否喜欢和硬件打交道？</li>
+<li>是否喜欢写代码？编程能力如何？</li>
+<li>是否希望自己的成果能有实际落地的应用？</li>
+<li>是否比较擅长某一方面的研究或者是感兴趣？</li>
+</ol>
+<p>计算机科学与技术可以细分成三个方向：</p>
+<ul>
+<li>
+<p>计算机体系结构 (081201)，适合工程师类型的人（代码能力强、具有系统思维）；</p>
+</li>
+<li>
+<p>计算机软件与理论 (081202)，适合数理逻辑、抽象思维好的人（如果是系统软件，更接近计算机体系结构类型）；</p>
+</li>
+<li>
+<p>计算机应用技术 (081203)，适合学习能力强、头脑灵活、市场嗅觉好的人。</p>
+</li>
+</ul>
+<p>另外，如果考虑<strong>国家需求</strong>的话，可以努力往计算机系统方向（系统软件或者体系结构）发展。</p>
+<p>从专业代码角度看，以上三者均为学硕/博士，专硕一般为：</p>
+<ul>
+<li>电子信息 (085400)，与学硕/博士相比，更侧重于实践，名额相对来说更容易获取一些。</li>
+</ul>
+<h2 id="4">4. 研究生导师的选择（获取信息、套磁）</h2>
+<p>到各院校的网站上一个个翻看教师主页：</p>
+<ol>
+<li>看近几年的paper（aminer、google scholar或者dblp）；</li>
+<li>看是否有人品问题（研控yankong.org、知乎）；</li>
+<li>如果能找到往年的学长学姐问一下具体情况，那就更好了。</li>
+</ol>
+<p>套磁的话可以上  <strong>某些仓库</strong>*  找模版，然后发老师邮箱。投得越多，机会越大。</p>
+<h2 id="5">5. 保研的考察形式是怎样的</h2>
+<p>以下是一些可能的形式：</p>
+<ol>
+<li>机试：① 算法和数据结构 ②计算机专业知识；</li>
+<li>面试：① 计算机专业知识 ② 英语 ③ 做过的项目工程；</li>
+<li>工程：少数大学会在夏令营期间安排学生参与项目工程，来考察动手能力、合作交流能力。</li>
+</ol>
+<p>每个学校的形式都不一样，例如：</p>
+<ul>
+<li>北京大学计算机学院的夏令营只有面试；</li>
+<li>清华大学计算机系有机试和面试，且机试难度大；</li>
+<li>浙江大学计算机学院的夏令营只面向直博，会要求完成一些项目；</li>
+<li>南京大学计算机系的夏令营有笔试（上机做专业课的选择题）和面试；</li>
+<li>西北工业大学计算机学院夏令营、预推免只有面试。</li>
+</ul>
+<p>以上为2022年的情况，仅供参考。</p>
+<p>可以上知乎或者  <strong>某些仓库</strong>*  找找看有没有自己目标院校的经验贴。</p>
+<p>本仓库“经验贴”子目录，正在征集当中。</p>
+<h2 id="6">6. 保研需要进行哪些方面的准备</h2>
+<p>从大三寒假开始就可以准备了：</p>
+<ol>
+<li>如果对算法没信心，可以刷leetcode/牛客网/acwing的算法题，熟能生巧；</li>
+<li>制作简历，对于简历上写的项目经历要熟悉一下，不要卡壳；</li>
+<li>计算机专业课可以有针对性地复习（比如想走体系结构就复习计组，想走ai就复习概率论、机器学习等等）；</li>
+<li>英文自我介绍，以及一些简单的英语问答。</li>
+</ol>
+<p>更多内容详见“保研准备”子目录。</p>
+<h2 id="7">7. 保研的几个重要时间节点（流程）</h2>
+<p>套磁阶段：1-5月份（保研没正式开始，试试水，提前联系老师看能不能参与一些项目，和老师保持联系）；</p>
+<p>夏令营阶段：6月报名-7月底（竞争激烈，入营后进行机试面试；可能直接上岸，或者拿到老师的口头offer）；</p>
+<p>预推免阶段：8月中旬-9月底（相当于是第二次夏令营；不能着急，稳住心态，要相信offer一般越晚的越好）；</p>
+<p>“九推”阶段：9.28推免系统开放后（如果之前已经上岸，就只要填系统就好了；如果未上岸，系统开放期间还可能有部分名额，不要放弃）。</p>
+<p><strong>某些仓库</strong>*  ：</p>
+<ol>
+<li><a href="https://github.com/Alpha-Yang/CS-BAOYAN-2022">https://github.com/Alpha-Yang/CS-BAOYAN-2022</a>；这里面有很多有用的资料，务必加一下里面的QQ群。</li>
+<li><a href="https://github.com/yuezih/King-of-Pigeon">https://github.com/yuezih/King-of-Pigeon</a>；这里面有一些文书模版。</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>
