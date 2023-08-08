@@ -4,6 +4,8 @@
 
 为了更好的阅读体验，请访问本项目Web Page: [Survive NWPU-CS Manual](https://npu-cs.github.io/SurviveNWPU-CSManual)
 
+各类计算机专业课程资料，请访问子项目下载: [npu-cs Course-Material](https://github.com/npu-cs/Course-Material)
+
 受 [上海交通大学](https://github.com/SurviveSJTU/SurviveSJTUManual)、[浙江大学](https://github.com/QSCTech/zju-icicles)、[清华大学](https://github.com/PKUanonym/REKCARC-TSC-UHT)、[哈尔滨工业大学-深圳](https://github.com/hewei2001/HITSZ-OpenCS)、[四川大学](https://github.com/SCU-CS-Runner/SurviveSCUManual)、[北京航空航天大学](https://github.com/TheBloodthirster/BUAA_Course_Sharing)、[电子科技大学](https://github.com/Xovee/uestc-course) 等相关项目启发，创立了本项目。
 
 本项目创建于2022年，由2019级CS本科生自发组织，目前处于民间运营状态。
